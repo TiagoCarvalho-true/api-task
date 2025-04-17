@@ -49,7 +49,7 @@ Servidor rodando em: `http://localhost:3000`
 
 ## 🧪 Testes
 
-Utilize Postman, Insomnia ou qualquer API client para testar os endpoints.
+Com Insomnia ou qualquer API client para testar os endpoints.
 
 
 
