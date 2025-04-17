@@ -1,9 +1,4 @@
 
----
-
-## 📄 `README.md`
-
-```markdown
 # 📌 API de Gerenciamento de Tarefas
 
 API REST completa desenvolvida com Node.js para a Atividade Prática Avançada II da faculdade. O sistema permite criar, listar, atualizar, concluir e deletar tarefas, com validações, filtros e tratamento de erros.
@@ -25,7 +20,7 @@ Repositório: [TiagoCarvalho-true/api-task](https://github.com/TiagoCarvalho-tru
 
 ## 📂 Estrutura de Pastas
 
-```
+---
 api-task/
 ├── src/
 │   ├── controllers/
@@ -35,9 +30,9 @@ api-task/
 │   ├── utils/
 │   ├── database/
 │   └── app.js
-```
-
 ---
+
+
 
 ## 📦 Instalação
 
@@ -50,13 +45,13 @@ node src/app.js
 
 Servidor rodando em: `http://localhost:3000`
 
----
+
 
 ## 🧪 Testes
 
 Utilize Postman, Insomnia ou qualquer API client para testar os endpoints.
 
----
+
 
 ## 📚 Endpoints
 
@@ -92,7 +87,7 @@ Marca a tarefa como concluída (`concluida: true`).
 ### 🔹 `DELETE /tarefas/:id`
 Remove uma tarefa da lista.
 
----
+
 
 ## ⚠️ Validações
 
@@ -100,7 +95,7 @@ Remove uma tarefa da lista.
 - `descricao`: obrigatório.
 - `concluida`: deve ser `true` ou `false`.
 
----
+
 
 ## ✅ Logs no Terminal
 
@@ -109,7 +104,7 @@ Mensagens como:
 - "Tarefa deletada."
 - "Tentativa de criação com dados inválidos."
 
----
+
 
 ## 🧠 Organização em Camadas
 
@@ -118,8 +113,6 @@ Mensagens como:
 - **Middleware**: Validações com Joi.
 - **Util**: Logger customizado.
 - **Database**: Simulação de banco com array em memória.
-
----
 
 
 
