@@ -20,7 +20,7 @@ Repositório: [TiagoCarvalho-true/api-task](https://github.com/TiagoCarvalho-tru
 
 ## 📂 Estrutura de Pastas
 
----
+```
 api-task/
 ├── src/
 │   ├── controllers/
@@ -30,18 +30,18 @@ api-task/
 │   ├── utils/
 │   ├── database/
 │   └── app.js
----
+```
 
 
 
 ## 📦 Instalação
 
----
+```
 git clone https://github.com/TiagoCarvalho-true/api-task.git
 cd api-task
 npm install
 node src/app.js
----
+```
 
 Servidor rodando em: `http://localhost:3000`
 
@@ -68,13 +68,13 @@ Retorna uma tarefa específica por ID.
 Cria uma nova tarefa.
 
 **Body (JSON):**
----
+```
 {
   "titulo": "Estudar Node.js",
   "descricao": "Fazer a atividade da faculdade",
   "concluida": false
 }
----
+```
 
 ### 🔹 `PUT /tarefas/:id`
 Atualiza todos os dados de uma tarefa.
